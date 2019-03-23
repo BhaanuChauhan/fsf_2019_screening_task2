@@ -13,8 +13,7 @@ class Fossee(QtGui.QMainWindow):
     def __init__(self):
         super(Fossee, self).__init__()
         self.setGeometry(50, 50, 500, 300)
-        self.setWindowTitle("PyQT tuts!")
-        self.setWindowIcon(QtGui.QIcon('pythonlogo.png'))
+        self.setWindowTitle("Graph Plot")
         self.show()
 
 app = QtGui.QApplication(sys.argv)
